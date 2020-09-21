@@ -1,0 +1,224 @@
+#container {
+    width: 0px auto;
+    height: 800px;
+    margin: 0px auto;
+    background-color: #F0F8BD;
+}
+
+header {
+    width: 1000px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: #F0F8BD;
+    display: flex;
+}
+
+#ustsol {
+    float: left;
+}
+
+#ustsag {
+    float: left;
+    ;
+}
+
+header nav {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0F8BD;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+header nav a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #93D9D8;
+    color: lightslategray;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+header #banner {
+    display: flex;
+}
+
+main {
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+#deneme {
+    display: flex;
+}
+
+#ortasol {
+    margin: 20px;
+    height: 235px;
+}
+
+#orta {
+    margin-top: 20px;
+    width: 500px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+#ortasag {
+    background-color: #fff;
+    margin-top: 20px;
+    width: 300px;
+    height: 460px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.indirim {
+    float: left;
+    background-image: url(Resimler/patlangac.png);
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fiyat {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.açıklama {
+    float: right;
+    width: 290px;
+    height: 270px;
+}
+
+#butonlar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hemenal {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hemenal a {
+    color: white;
+}
+
+.hemenal a:hover {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.sepeteekle {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    float: right;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sepeteekle a {
+    color: white;
+}
+
+.sepeteekle a:hover {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.altaçıklama {
+    margin-top: 5px;
+    width: 290px;
+    border: 1px solid lightgray;
+    font-size: 11px;
+    border-radius: 5px;
+    color: red;
+    text-align: center;
+}
+
+footer {
+    width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+    background-color: #FBC9CC;
+    display: flex;
+    align-content: center;
+}
+
+#altsol p {
+    width: 1000px;
+    color: black;
+    font-size: 20px;
+}
+
+#altsag {
+    clear: both;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#altsag .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 1em;
+    height: 1em;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    background-color: #02BEC4;
+    color: blue;
+}

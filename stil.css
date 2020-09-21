@@ -1,0 +1,265 @@
+#container {
+    width: 1000px;
+    height: 2950px;
+    margin: 0px auto;
+    background-color: #F0F8BD;
+}
+
+#container-iletisim {
+    width: 1000px;
+    height: 780px;
+    margin: 0px auto;
+    background-color: #F0F8BD;
+}
+#container-sepet {
+    width: 1000px;
+    height: 1200px;
+    margin: 0px auto;
+    background-color: #F0F8BD;
+}
+#mainiletisim {
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+}
+#mainsepet{
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+}
+
+h4 {
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 25px;
+   
+}
+#sepetortaust{
+width: 1000px;
+display: flex;
+}
+.sepeturunadi{
+    border:1px solid lightgray;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    font-weight: bold;
+}
+.sepeturunadiger{
+    border:1px solid lightgray;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    font-weight: bold;
+}
+#sepetorta{
+    width: 1000px;
+    height: 130px;
+    border:1px solid lightgray;
+ display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+.sepetkitap{
+    background-image: url(Resimler/kitap1.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    margin-left: 20px;
+}
+.sepetkitap2{
+    background-image: url(Resimler/hikaye1.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    margin-left: 20px;
+}
+.sepetkitap3{
+    background-image: url(Resimler/masal1.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    margin-left: 20px;
+}
+#sepetortaalt{
+    display: flex;
+    justify-content: space-around;
+     border:1px solid lightgray;
+
+}
+.sepetaçıklama{
+   
+    font-weight: bold;
+    font-size:20px;
+}
+#sepetsiparis{
+    width: 1000px;
+    height: 330px;
+    text-align: center;
+}
+#satınal{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: red;;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#satınal a{
+       color:white;
+}
+#satınal a:hover{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    border-radius: 7px;
+}
+#bilgiler {
+    text-align: center;
+}
+
+header {
+    width: 1000px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: #F0F8BD;
+    display: flex;
+}
+
+#ustsol {
+    float: left;
+}
+
+#ustsag {
+    float: left;
+}
+
+header nav {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0F8BD;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+main {
+    width: 1000px;
+    height: 2700px;
+    margin: 0px auto;
+}
+
+header nav a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #93D9D8;
+    color: lightslategray;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+main #kutu {
+    width: 200px;
+    height: 320px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#kutu:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 1s;
+}
+
+#kitaplar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.açıklama {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    line-height: 13px;
+}
+
+.kitap1 {
+
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+
+#kutu a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+footer {
+    width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+    background-color: #FBC9CC;
+    display: flex;
+    align-content: center;
+}
+
+#altsol p {
+    width: 1000px;
+    color: black;
+    font-size: 20px;
+    float: left;
+}
+
+#altsag {
+    float: right;
+    clear: both;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#altsag .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 1em;
+    height: 1em;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    background-color: #02BEC4;
+    color: blue;
+}
